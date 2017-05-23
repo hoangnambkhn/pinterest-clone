@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Add a picture</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">  
+  <link rel="icon" href="https://cdn.hyperdev.com/us-east-1%3A60e6615e-7d9e-47ac-903b-3b4b47372e42%2Flogo.png">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">  
+	<link href="../main.css"  type="text/css" rel="stylesheet">
+
+	<script src="../main.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+<% include ../views/header.ejs %>
+
+<div class  = "addpic-container">
+  <div class = "header-addpic">
+    
+  </div>
+  <div class = "form-container">
+    <div class = "title">Add new picture</div>
+      <form id ="login-form"  action = '/submitpicture'>
+        <div class = "form-group">
+          <input type="text" class="form-control" id="urlpicture" name = "urlpicture" placeholder="Url picture">
+        </div>
+        <div class="form-group">
+          <label for="descriptionpic">Description</label>
+          <textarea name = "descriptionpic" class="form-control" id="description" rows="3"></textarea>
+        </div>
+        <div class = "form-group">
+          <button type="submit" class="btn-submit btn btn-primary">Submit Picture</button>
+        </div>
+    </form>
+    </div>
+</div>    
+
+  
+ 
+</body>

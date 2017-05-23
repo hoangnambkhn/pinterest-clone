@@ -1,0 +1,23 @@
+{
+  "name": "pinterest-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "namhoang",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongod": "^2.0.0",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.10.0",
+    "passport": "^0.3.2",
+    "passport-twitter": "^1.0.4"
+  }
+}

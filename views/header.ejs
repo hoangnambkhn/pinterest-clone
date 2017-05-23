@@ -1,0 +1,18 @@
+
+ <div id = "header" class= "header-container">
+    <div class = "header">
+       <a href='/home' data-reactid=".0.0.0.0.1"><img class= "img-header" id = "img-header" alt="Brand" src="https://cdn.hyperdev.com/us-east-1%3A60e6615e-7d9e-47ac-903b-3b4b47372e42%2Flogo.png" class="brand-img" title="Pic-terest" data-reactid=".0.0.0.0.1.0"></a>
+       <a href = '/allpicture'><button class = "btn btn-primary-outline">All</button></a>
+       <% if(user) { %>
+       <a href = '/mypicture'><button class = "btn btn-primary-outline">My Pics</button></a>
+       <a href = '/addpicture'><button class = "btn btn-primary-outline">Add a Pic</button></a>
+       <a href = '/logout'><button class = "btn btn-primary right">Logout</button></a>
+       <% } else { %>
+       <a href = '/login'><button class = "btn btn-primary right">Login</button></a>
+       <% } %>
+      
+
+    </div>
+   
+    <div></div>
+  </div>
